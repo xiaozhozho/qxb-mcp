@@ -10,8 +10,8 @@ from mcp.server.fastmcp import FastMCP
 logging.basicConfig(level=logging.WARNING)
 logger = logging.getLogger("qx-mcp")
 
-APPKEY = "86f566b8-e0cb-43f3-a2db-33af1f6def9e"
-SECRET_KEY = "778ef325-2ec2-4fb4-9b96-ae3fe0cdc8b2"
+APPKEY = "xxxxxxxxxxxxxxxxxxxxx"
+SECRET_KEY = "xxxxxxxxxxxxxxxxxxxxx"
 BASE_URL = "https://api.qixin.com"
 
 client = httpx.Client(base_url=BASE_URL, timeout=30)
