@@ -4,11 +4,11 @@
 [![MCP](https://img.shields.io/badge/MCP-1.0%2B-orange)](https://modelcontextprotocol.io)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
 
-**qx-mcp** 是一个基于 [MCP (Model Context Protocol)](https://modelcontextprotocol.io) 标准的服务器，将[启信宝开放平台](https://data.qixin.com)（上海生腾数据科技有限公司）70+ 企业工商数据 API 封装为 MCP 工具，可供 AI 助手直接调用查询企业信息。
+**qx-mcp** 是一个基于 [MCP (Model Context Protocol)](https://modelcontextprotocol.io) 标准的服务器，将[启信宝开放平台](https://data.qixin.com)（上海生腾数据科技有限公司）170+ 企业工商/司法/知识产权/证券数据 API 封装为 MCP 工具，可供 AI 助手直接调用查询企业信息。
 
 ## ✨ 功能特性
 
-- **72 个 MCP 工具**，覆盖企业工商信息全维度
+- **173 个 MCP 工具**，覆盖企业工商、司法、经营、知识产权、证券等全维度
 - **即装即用** — 安装后配置 appkey 即可通过 AI 助手自然语言查询
 - **统一鉴权** — 自动处理 `appkey + timestamp + secret` 签名
 - **全量覆盖** — 基础信息、股权穿透、关联关系、风险评分、特殊机构等
